@@ -1,0 +1,347 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*style home page*/
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 20px solid rgb(88, 115, 226);
+  background-color: rgb(154, 216, 201);
+  outline: 10px solid black;
+  border-radius: 5%;
+  box-shadow: 0 0 0 30px rgb(144, 254, 169);
+  margin: 0 auto;
+}
+
+.commonA {
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px;
+}
+.nav {
+  height: 30px;
+  background-color: rgb(7, 22, 76);
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+body {
+  line-height: 1.5;
+  padding-bottom: 200px;
+}
+hr {
+  width: 500px;
+  border-style: dashed;
+  margin: 32px auto;
+  border-color: gray;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 32px, 0;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.marker-container {
+  text-align: center;
+  margin-top: 60px;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(154, 216, 201);
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.circle-blue {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(13, 20, 48);
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.circle-black {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(144, 255, 169);
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.circle-red {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(88, 115, 226);
+
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.marker {
+  margin: 0 16px;
+  display: inline-block;
+}
+p {
+  text-align: center;
+  font-size: 22px;
+}
+.container {
+  width: 600px;
+  border: 1px solid gray;
+  margin: 24px auto;
+  font-size: 0;
+}
+.child-box {
+  width: 180px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(184, 202, 240);
+  display: inline-block;
+}
+.border {
+  border: 1px solid black;
+}
+.border-box {
+  box-sizing: border-box;
+}
+/*style blog page*/
+.upper {
+  display: inline-block;
+  width: 1000px;
+  height: 300px;
+  /* margin-top: 40px; */
+  padding: 20px;
+  padding-bottom: 0;
+}
+.left {
+  display: inline-block;
+  width: 380px;
+  /* height: 400px; */
+  margin: 0 10px;
+}
+.right {
+  display: inline-block;
+  width: 400px;
+
+  text-align: left;
+  /* margin: 10px; */
+}
+img {
+  width: 380px;
+  height: 250px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  /* margin-bottom: 10px; */
+}
+/* .right p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+} */
+.btn {
+  background-color: #17bb3d;
+  width: 130px;
+  height: 30px;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.lower {
+  display: inline-block;
+  width: 1000px;
+  padding: 20px;
+  padding-top: 0;
+}
+.lowleft {
+  display: inline-block;
+  width: 380px;
+  text-align: left;
+  margin: 10px;
+}
+.lowright {
+  display: inline-block;
+  width: 380px;
+  text-align: left;
+  margin: 10px;
+}
+.lower a {
+  color: #17bb3d;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.blogA {
+  color: #17bb3d;
+}
+.homeA {
+  color: #17bb3d;
+}
+
+.body {
+  text-align: center;
+}
+p {
+  font-size: 15px;
+  text-align: left;
+}
+a {
+  text-align: left;
+}
+.learn {
+  font-size: 15px;
+  text-align: left;
+  /* margin-right: 10px; */
+}
+.homeA {
+  color: green;
+}
+.blogA {
+  color: green;
+}
